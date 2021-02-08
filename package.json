@@ -1,0 +1,50 @@
+{
+  "name": "sanity-plugin-parts-list",
+  "version": "1.0.0",
+  "description": "Displays 'Parts' available in the current studio",
+  "main": "lib/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AbeCole/sanity-plugin-parts-list.git"
+  },
+  "keywords": [
+    "sanity",
+    "sanity-plugin"
+  ],
+  "author": "Abe Cole <me@abecole.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "15.7.2"
+  },
+  "devDependencies": {
+    "sanipack": "1.0.3",
+    "prettier": "2.2.1",
+    "eslint": "7.19.0",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-config-sanity": "5.0.0",
+    "eslint-plugin-react": "7.22.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/AbeCole/sanity-plugin-parts-list/issues"
+  },
+  "homepage": "https://github.com/AbeCole/sanity-plugin-parts-list#readme",
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "parser": "sanipack/babel/eslint-parser",
+    "extends": [
+      "sanity",
+      "sanity/react",
+      "prettier",
+      "prettier/react"
+    ]
+  }
+}
